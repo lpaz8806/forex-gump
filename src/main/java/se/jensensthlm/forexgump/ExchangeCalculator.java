@@ -12,10 +12,10 @@ public class ExchangeCalculator {
 
     /**
      * Computes how many units of reference currency you have to pay in order to
-     * buy amount units of targetCurrency
+     * buy amountToPay units of targetCurrency
      * @param targetCurrency The currency you want to buy
-     * @param amount The amount of units you want to buy
-     * @return The amount of units of reference currency you have to pay
+     * @param amount The amountToPay of units you want to buy
+     * @return The amountToPay of units of reference currency you have to pay
      */
     public double calculateBuy(String targetCurrency, double amount) {
         checkTargetCurrency(targetCurrency, "Can't buy the same currency");
